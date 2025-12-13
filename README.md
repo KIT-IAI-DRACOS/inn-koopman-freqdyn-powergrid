@@ -30,3 +30,65 @@ The code was developed and tested with the following environment:
 To install all dependencies:
 ```bash
 pip install -r requirements.txt
+
+🚀 Usage
+1. Clone the repository
+git clone https://github.com/[your-username]/[repo-name].git
+cd [repo-name]
+
+2. Prepare data
+
+[Describe how to download or prepare the dataset used in your paper, e.g.:]
+
+mkdir data
+# Place data files here or run the following to download automatically
+python scripts/download_data.py
+
+3. Run training / simulation
+
+[Adapt to your code structure, e.g.:]
+
+python train.py --config configs/experiment.yaml
+
+4. Evaluate or visualize results
+python evaluate.py --checkpoint checkpoints/model_final.pth
+python plot_results.py
+
+
+📚 Citation
+
+If you use this code or find our work helpful, please cite:
+
+@article{yourname2025paper,
+  title={Your Paper Title},
+  author={Your Name and Coauthor Name},
+  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  year={2025}
+}
+
+📄 License
+
+This repository is released under the MIT License
+.
+You are free to use, modify, and distribute this code for research purposes, provided that proper credit is given.
+
+🙏 Acknowledgments
+
+We thank the contributors of the following open-source projects used in this work:
+
+PyTorch
+
+GPyTorch
+
+torchdiffeq
+
+[Add others as needed]
+
+🧩 Contact
+
+For questions or collaborations, please contact:
+
+[Your Name], [Your Institution]
+
+Email: [your_email@example.com
+]
