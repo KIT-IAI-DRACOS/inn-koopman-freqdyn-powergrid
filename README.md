@@ -1,0 +1,1 @@
+# Evaluating-Invertible-Architectures-for-Koopman-Based-Prediction-of-Frequency-Dynamics
