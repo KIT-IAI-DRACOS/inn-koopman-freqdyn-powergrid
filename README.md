@@ -1,7 +1,7 @@
 # Evaluating Invertible Architectures for Koopman-Based Prediction of Frequency Dynamics in Power Grids
 Official implementation of the paper  
 **"Evaluating Invertible Architectures for Koopman-Based Prediction of Frequency Dynamics in Power Grids"**,  
-by Eric Lupascu, Xiao Li, and Benjamin Sch¨afer, submitted to 2026 Open Source Modelling and Simulation of Energy System (OSMSES).
+by Eric Lupascu, Xiao Li, and Benjamin Schäfer, submitted to 2026 Open Source Modelling and Simulation of Energy System (OSMSES).
 
 ---
 
