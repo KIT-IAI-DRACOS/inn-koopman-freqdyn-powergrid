@@ -1,0 +1,47 @@
+program: train_deephodmd.py
+method: bayes  # oder random, grid
+metric:
+  name: val_loss
+  goal: minimize
+count: 30
+
+parameters:
+  # Allgemeine Modellparameter
+  time_delay:
+    values: [2, 4]
+  hidden_size:
+    values: [64, 128, 256]
+  num_layers:
+    values: [2, 3]
+
+  # Trainingsparameter
+  batch_size:
+    values: [128, 256]
+  max_epochs:
+    value: 2
+  look_forward:
+    values: [8, 16, 32]
+  normalize:
+    value: True
+  gradient_clip_val:
+    values: [0.1, 0.5, 0.9]
+  log_every_n_steps:
+    values: [2,5]
+  
+
+  # Erweiterung aktivieren oder nicht
+  use_extension:
+    values: [True, False]
+
+  # Extension Layer Konfiguration (nur relevant wenn use_extension == True)
+  extension_output_size:
+    values: [8, 16, 32]
+  hidden_channels:
+    values: [[32, 64], [64, 128]]
+  kernel_sizes:
+    values: [[3, 5], [5, 7]]
+  dropout_rate:
+    values: [0.0, 0.1, 0.2]
+  use_residual:
+    values: [True, False]
+
