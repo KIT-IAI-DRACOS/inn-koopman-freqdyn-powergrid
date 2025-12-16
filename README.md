@@ -1,32 +1,38 @@
-# Evaluating Invertible Architectures for Koopman-Based Prediction of Frequency Dynamics in Power Grids
-Official implementation of the paper  
-**"Evaluating Invertible Architectures for Koopman-Based Prediction of Frequency Dynamics in Power Grids"**,  
-by Eric Lupascu, Xiao Li, and Benjamin Sch¨afer, submitted to 2026 Open Source Modelling and Simulation of Energy System (OSMSES).
+# Predicting Power grid frequency dynamics with invertable Koopman-based architectures
+implementation of the paper  
+**"Predicting Power grid frequency dynamics with invertable Koopman-based architectures"**,  
+by Eric Lupascu, Xiao Li, and Benjamin Schäfer, submitted to 2026 Open Source Modelling and Simulation of Energy System (OSMSES).
 
 ---
 
 ## 📝 Overview
 
-This repository contains the official implementation of our paper **"Evaluating Invertible Architectures for Koopman-Based Prediction of Frequency Dynamics in Power Grids"**.  
+This repository contains the implementation of our paper **"Predicting Power grid frequency dynamics with invertable Koopman-based architectures"**.  
 The code reproduces the main experiments and figures presented in the paper.
 
 If you find this repository useful, please consider citing our work (see the **Citation** section below).
 
----
+<!-- --- -->
+<!-- 📚 Citation
 
-## 📦 Requirements
+If you use this code or find our work helpful, please cite:
 
-The code was developed and tested with the following environment:
+@article{lupascu2026paper,
+  title={Predicting Power grid frequency dynamics with invertable Koopman-based architectures},
+  author={Lupascu, Eric and Li, Xiao and Schäfer, Benjamin},
+  journal={arXiv preprint arXiv:2604.08420},
+  year={2026}
+} -->
 
-- Python >= 3.10  
-- PyTorch >= 2.0  
-- [List other key dependencies, e.g.:]  
-  - gpytorch  
-  - torchdiffeq  
-  - numpy  
-  - matplotlib  
-  - scipy  
+📄 License
 
-To install all dependencies:
-```bash
-pip install -r requirements.txt
+This repository is released under the BSD-3-Clause license.
+You are free to use, modify, and distribute this code, provided that proper credit is given.
+
+🧩 Contact
+
+For questions or collaborations, please contact:
+
+Xiao Li, Institute of Automation and Applied Informatics, Karlsruhe Institute of Technology
+
+Email: xiao.li@kit.edu
