@@ -1,6 +1,6 @@
 # Predicting power grid frequency dynamics with invertable Koopman-based architectures
 implementation of the paper  
-**"Predicting Power grid frequency dynamics with invertable Koopman-based architectures"**,  
+**"Predicting power grid frequency dynamics with invertable Koopman-based architectures"**,  
 by Eric Lupascu, Xiao Li, and Benjamin Schäfer, submitted to 2026 Open Source Modelling and Simulation of Energy System (OSMSES).
 
 ---
