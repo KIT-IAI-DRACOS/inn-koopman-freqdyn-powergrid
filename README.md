@@ -1,4 +1,4 @@
-# Predicting Power grid frequency dynamics with invertable Koopman-based architectures
+# Predicting power grid frequency dynamics with invertable Koopman-based architectures
 implementation of the paper  
 **"Predicting Power grid frequency dynamics with invertable Koopman-based architectures"**,  
 by Eric Lupascu, Xiao Li, and Benjamin Schäfer, submitted to 2026 Open Source Modelling and Simulation of Energy System (OSMSES).
@@ -7,7 +7,7 @@ by Eric Lupascu, Xiao Li, and Benjamin Schäfer, submitted to 2026 Open Source M
 
 ## 📝 Overview
 
-This repository contains the implementation of our paper **"Predicting Power grid frequency dynamics with invertable Koopman-based architectures"**.  
+This repository contains the implementation of our paper **"Predicting power grid frequency dynamics with invertable Koopman-based architectures"**.  
 The code reproduces the main experiments and figures presented in the paper.
 
 If you find this repository useful, please consider citing our work (see the **Citation** section below).
@@ -18,9 +18,10 @@ If you find this repository useful, please consider citing our work (see the **C
 If you use this code or find our work helpful, please cite:
 
 @article{lupascu2026paper,
-  title={Predicting Power grid frequency dynamics with invertable Koopman-based architectures},
-  author={Lupascu, Eric and Li, Xiao and Schäfer, Benjamin},
-  journal={arXiv preprint arXiv:2604.08420},
+	title = {Predicting power grid frequency dynamics with invertible {Koopman}-based architectures},
+  author = {Lupascu, Eric and Li, Xiao and Schäfer, Benjamin},
+	url = {http://arxiv.org/abs/2603.14442},
+	doi = {10.48550/arXiv.2603.14442},
   year={2026}
 } -->
 
@@ -35,4 +36,4 @@ For questions or collaborations, please contact:
 
 Xiao Li, Institute of Automation and Applied Informatics, Karlsruhe Institute of Technology
 
-Email: xiao.li@kit.edu
+Email: lixiao000@yeah.net, eric.lupascu@web.de.
